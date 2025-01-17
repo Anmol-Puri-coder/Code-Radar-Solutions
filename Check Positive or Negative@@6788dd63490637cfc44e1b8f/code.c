@@ -13,4 +13,5 @@ int main() {
     if(a == 0){
         printtf("Zero");
     }
+    return 0;
 }
