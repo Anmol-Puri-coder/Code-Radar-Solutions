@@ -2,9 +2,9 @@
 
 int main() {
     unsigned int a;
-    scanf("%d",&a);
-    unsigned int b = a & (1U << (sizeof(a)*8-1));
-    if(b == 1){
+    scanf("%u",&a);
+    unsigned int b = 1U << 31;
+    if(a & b){
         printf("Set");
 
     }
