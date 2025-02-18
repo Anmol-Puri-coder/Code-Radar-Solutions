@@ -8,6 +8,8 @@ int main(){
     }
     bubbleSort(arr,n);
     printArray(arr,n);
+
+    return 0;
 }
 void printArray(int[] arr,int n){
     for(int i = 0;i<n;i++){
