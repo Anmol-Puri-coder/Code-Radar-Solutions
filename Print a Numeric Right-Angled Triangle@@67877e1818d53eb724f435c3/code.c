@@ -7,8 +7,9 @@ int main()
     for(int i = 1;i<=a;i++){
         for(int j =1;j<=b;j++){
             printf("%d",&j);
-            b++;
+
         }
+        b++;
     }
     return 0;
 }
