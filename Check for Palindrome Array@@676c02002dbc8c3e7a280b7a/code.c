@@ -6,7 +6,7 @@ int areArraysEqual(int arr1[], int arr2[], int size) {
     }
     return 1;
 }
-void reverse(int arr,int size){
+void reverse(int arr[],int size){
     int start = 0; 
     int end = size-1;
     while(start<end){
@@ -24,7 +24,7 @@ int main()
     scanf("%d",&a);
     int arr[a],arr1[a];
     for(int i=0;i<a;i++){
-        scanf("%d",arr[i]);
+        scanf("%d",&arr[i]);
         arr1[i] = arr[i];
     }
     reverse(arr1,a);
