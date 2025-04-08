@@ -17,8 +17,14 @@ int main()
         return 0;
     }
     else if(x >=70){
-        printf("%c",d);
+        printf("%c",c);
         return 0;
+    }
+    else if (x>=60){
+        printf("%c",d);
+    }
+    else{
+        printf("%c",f);
     }
     return 0;
 }
